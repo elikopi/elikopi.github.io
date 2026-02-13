@@ -1,1 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi, my name is EliKopi!</title>
+</head>
+<body style="background-color:#3B2A47; color:white; font-family:Aptos, Helvetica, sans-serif; text-align:center;">
+
+    <h1>About Me</h1>
+    <p>Hello! I'm the mysterious "yapper" 👀</p>
+
+    <a href="index.html">
+        <button>Go Back</button>
+    </a>
+
+</body>
+</html>
 
