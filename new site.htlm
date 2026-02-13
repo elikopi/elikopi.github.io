@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Website</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Awesome Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to my amazing website</h2>
+        <p>You can fully customize colors, fonts, layout and more!</p>
+        <button onclick="changeTheme()">Change Theme</button>
+    </section>
+
+    <section class="content">
+        <div class="card">
+            <h3>Card Title</h3>
+            <p>This is a customizable card component.</p>
+        </div>
+
+        <div class="card">
+            <h3>Another Card</h3>
+            <p>Edit colors, fonts and spacing in the CSS file.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Website</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
