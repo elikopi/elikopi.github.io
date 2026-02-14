@@ -22,14 +22,14 @@ body[data-theme="dark"] {
 }
 
 * {
-    margin: 0;
+    margin: 4rem;
     padding: 0;
     box-sizing: border-box;
 }
 
 body {
     font-family: var(--font-main);
-    background: var (#D7CCE3)
+    background: #D7CCE3 
     color: var(--text);
     line-height: 1.6;
     transition: background 0.3s, color 0.3s;
@@ -45,7 +45,7 @@ body {
 }
 
 nav a {
-    margin-right: 1rem;
+    margin-right: 4rem;
     text-decoration: none;
     color: var(--text);
     font-weight: 500;
