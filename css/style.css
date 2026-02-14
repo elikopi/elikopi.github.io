@@ -5,7 +5,7 @@
 :root {
     --font-main: 'Aptos', sans-serif;
 
-    --bg: #f9fafb;
+    --bg: #CEE6F0;
     --text: #111827;
     --primary: #6366f1;
     --secondary: #e5e7eb;
@@ -55,5 +55,7 @@ footer {
     opacity: 0.6;
 }
 body {
-    background: #CEE6F0 !important; /* light blue */
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-main);
 }
