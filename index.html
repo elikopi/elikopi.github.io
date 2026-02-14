@@ -1,81 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>My GitHub Pages Site</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Website</title>
 
-    <!-- CSS -->
-    <style>
-        body {
-            margin: 0;
-            font-family: Aptos, Helvetica, sans-serif;
-            background-color: #F5E4E9; 
-            text-align: center;
-        }
+    <!-- Fonts (easy to replace later) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 
-        header {
-            background-color: #3E2E63;
-            color: white;
-            padding: 40px 20px;
-        }
-
-        section {
-            padding: 40px 20px;
-        }
-
-        button {
-            padding: 12px 20px;
-            font-size: 16px;
-            border: none;
-            background-color: #007bff;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #0056b3;
-        }
-
-        footer {
-            background-color: #222;
-            color: #ccc;
-            padding: 15px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="css/style.css" />
 </head>
-<body>
+<body data-theme="light">
 
-    <header>
-        <h1>Welcome to my page :) </h1>
-        <p> This is a page full of funny comments, random pictures and facts from my daily life (because why not)  </p>
+    <header class="site-header">
+        <h1>My Website</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#links">Links</a>
+        </nav>
+        <button id="themeToggle">Toggle Theme</button>
     </header>
 
-    <section>
-        <h2> About Me</h2>
-        <p> Learn something about this crazy "yapper"!</p>
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>This is a customizable website hosted on GitHub Pages.</p>
+            <img src="images/example.jpg" alt="Example image">
+        </section>
 
-       <a href="aboutme.html">
-    <button>About Me</button>
-</a>
+        <section id="about">
+            <h2>About</h2>
+            <p>You can edit text, styles, colors, fonts, and layouts anytime.</p>
+        </section>
 
-        <p id="message"></p>
-    </section>
+        <section id="links">
+            <h2>Links</h2>
+            <ul>
+                <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                <li><a href="https://example.com" target="_blank">Another Site</a></li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        © 2026 My GitHub Website
+        <p>© 2026 My Website</p>
     </footer>
 
-    <!-- JavaScript -->
-    <script>
-        function sayHello() {
-            document.getElementById("message").innerText =
-                "";
-        }
-    </script>
-
+    <script src="js/theme.js"></script>
 </body>
 </html>
